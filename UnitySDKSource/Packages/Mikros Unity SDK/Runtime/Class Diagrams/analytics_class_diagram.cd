@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section: Analytics&#xD;&#xA;">
+    <Position X="21.67" Y="1.392" Height="0.387" Width="2.405" />
+  </Comment>
+  <Comment CommentText="Analytics Controller&#xD;&#xA;">
+    <Position X="1.24" Y="3.115" Height="0.354" Width="1.545" />
+  </Comment>
+  <Comment CommentText="Client Configuration&#xD;&#xA;">
+    <Position X="5.455" Y="3.054" Height="0.406" Width="1.54" />
+  </Comment>
+  <Comment CommentText="Internal Event Log Classes&#xD;&#xA;">
+    <Position X="14.952" Y="3.031" Height="0.331" Width="1.987" />
+  </Comment>
+  <Comment CommentText="Mikros Analytics Request Classes&#xD;&#xA;">
+    <Position X="30.16" Y="2.736" Height="0.378" Width="2.155" />
+  </Comment>
+  <Comment CommentText="Shared Interface&#xD;&#xA;">
+    <Position X="42.143" Y="8.619" Height="0.359" Width="1.233" />
+  </Comment>
+  <Comment CommentText="Data structure for default parameters for any type of event logging (Custom/Preset).&#xD;&#xA;">
+    <Position X="41.738" Y="12.233" Height="0.75" Width="2.262" />
+  </Comment>
+  <Class Name="MikrosClient.Analytics.AnalyticsController">
+    <Position X="0.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAAACAAAAAAAAAAAgAAAAAGAAAAAAiAAAIBI=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\AnalyticsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Config.Configuration">
+    <Position X="4.25" Y="4" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACEAgAAAgACAAgAAAQAAEABAAAAAABAABE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\ClientConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="privacyLevel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Analytics.MikrosSDKInitializeEvent">
+    <Position X="14.25" Y="7.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAECAAEAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\InternalEventLogClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Analytics.MikrosSDKAuthEvent">
+    <Position X="18.25" Y="4" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAggAAAAIECAIEABAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\InternalEventLogClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Analytics.MikrosSDKProfileScoreEvent">
+    <Position X="10.25" Y="10.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAgAEAAAAEAAAEgAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\InternalEventLogClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Analytics.MikrosSDKPortalEvent">
+    <Position X="18.25" Y="7.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAggAAAAAEKAIEAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\InternalEventLogClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="portalEventType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Analytics.MikrosSDKExceptionEvent">
+    <Position X="10.25" Y="7.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAgAAAAAAECAIEAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\InternalEventLogClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Analytics.MikrosSDKApiFailureEvent">
+    <Position X="10.25" Y="4" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAAAAAAAAAAAAAggAAAAAECAIEAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\InternalEventLogClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Analytics.MikrosSDKApiSuccessEvent">
+    <Position X="14.25" Y="4" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAAAAAAAAAAAAAggAAAAAECgIEAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\InternalEventLogClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackAppOpenRequest" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAgAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackGameOverRequest" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAgAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.212" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackHandledExceptionRequest" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="4" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MikrosClient.Analytics.TrackHandledExceptionRequest.Exception">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MikrosClient.Analytics.TrackHandledExceptionRequest.Cause">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAAAAAIAAAAAAAQAgAAAgBAFAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackHttpFailureRequest" BaseTypeListCollapsed="true">
+    <Position X="33" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoAAAAIAAAAgAAAAIAEAAKAAAKCAAACE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackHttpSuccessRequest" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoAAAAIAAAAgAAAAIAEAAKAAAKCAAACE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackLevelEndRequest" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAgIAAAIAAAAAgAAgEAAEIBIEAACCBAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackLevelStartRequest" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAgIAAAIAAAAAgAAAEAAEABAEAACABAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackLevelUpRequest" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAIABAAAAAgIAAAIAAAAAgAAAEAAEABAEAACABACAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackPostScoreRequest" BaseTypeListCollapsed="true">
+    <Position X="33" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAIABAAAAAAIAgAAAAIAAgAAAEAAEABAEAACABACAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackShareRequest" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="12.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAICAAAAAgAAgAAAAAAFAAAAAQCAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackSigninRequest" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="17.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAICAAAAAgAAgAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackSignupRequest" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="17.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAICAAAAAgAAgAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackStartTimerRequest" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="17.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAIAAAAAAAAAgAAgAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackStopTimerRequest" BaseTypeListCollapsed="true">
+    <Position X="33" Y="17.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAIAAAAAAAAAgAAgAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackTutorialBeginRequest" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="17.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAgAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackTutorialCompleteRequest" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAgAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.TrackUnlockAchievementRequest" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAABQAIAAQAAAAAAgAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.Analytics.AnalyticsDefaultParameters">
+    <Position X="41.5" Y="13.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAEAAAQAgAAgAAAEAAAAIAAAgIAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MikrosClient.Analytics.IPresetAnalyticsEventRequest">
+    <Position X="41.5" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAACAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\MikrosAnalyticsRequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MikrosClient.PRIVACY_LEVEL">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.SDK_PORTAL_EVENT_TYPE">
+    <Position X="18.5" Y="11" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AKCAABAAAAEAAAAAgAEAACAAaAAAAEAAAACAAAAAABg=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

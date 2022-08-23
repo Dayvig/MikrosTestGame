@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section: Authentication&#xD;&#xA;">
+    <Position X="7.2" Y="1.054" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Authentication Panel&#xD;&#xA;">
+    <Position X="2.344" Y="1.51" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Auth Panel Custom Data Structures&#xD;&#xA;">
+    <Position X="14.27" Y="3.845" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Mikros Account Button&#xD;&#xA;">
+    <Position X="14.281" Y="10.38" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="MikrosClient.Authentication.AuthenticationPanel">
+    <Position X="1.25" Y="2.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>BEMgICBAAAgQAakAQECAggkAMwrAxYZoAgQEBOSQCGQ=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Authentication\AuthenticationPanel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="authenticatePage" />
+      <Field Name="authenticatePasswordInputSetup" />
+      <Field Name="authPanelCanvasGroup" />
+      <Field Name="chooseAccountPage" />
+      <Field Name="currentActivePage" />
+      <Field Name="instance" />
+      <Field Name="mikrosAccountButtonPrefab" />
+      <Field Name="signinPage" />
+      <Field Name="signinPasswordInputSetup" />
+      <Field Name="signinUsernameEmailInputSetup" />
+      <Field Name="signupEmailInputSetup" />
+      <Field Name="signupPage" />
+      <Field Name="signupPasswordInputSetup" />
+      <Field Name="signupUsernameInputSetup" />
+      <Field Name="tempNextPage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Authentication.CustomUserInputSetup">
+    <Position X="11.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAgABAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Authentication\AuthPanelCustomDataStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Authentication.MikrosSSOPage">
+    <Position X="11.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEgAQAAAAEAAAAAABAgAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Authentication\AuthPanelCustomDataStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Authentication.MikrosAccountButton">
+    <Position X="11.25" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACCAAAAAAAYBCBAAAAAAAAAAoAAAAAAAACAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Authentication\MikrosAccountButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.CanvasGroup" Collapsed="true">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section:&#xD;&#xA;Profanity Filter&#xD;&#xA;">
+    <Position X="8.156" Y="0.615" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Interfaces&#xD;&#xA;">
+    <Position X="9.219" Y="2.958" Height="0.479" Width="0.971" />
+  </Comment>
+  <Comment CommentText="Profanity List&#xD;&#xA;">
+    <Position X="15.129" Y="10.174" Height="0.481" Width="1.214" />
+  </Comment>
+  <Comment CommentText="Profanity Handler&#xD;&#xA;">
+    <Position X="11.173" Y="8.512" Height="0.52" Width="1.508" />
+  </Comment>
+  <Comment CommentText="Profanity Base&#xD;&#xA;">
+    <Position X="6.912" Y="8.499" Height="0.507" Width="1.188" />
+  </Comment>
+  <Comment CommentText="Allow List&#xD;&#xA;">
+    <Position X="2.284" Y="8.301" Height="0.468" Width="1.201" />
+  </Comment>
+  <Class Name="MikrosClient.ProfanityFilter.AllowList">
+    <Position X="1.5" Y="9.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAAAAAAAAABAQAAAAAAAAAAAgAAABQAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ProfanityFilter\AllowList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.ProfanityFilter.ProfanityBase">
+    <Position X="6" Y="9.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQACABAAAAAEAAAAABAAAI=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ProfanityFilter\ProfanityBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_wordList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.ProfanityFilter.ProfanityHandler">
+    <Position X="10.5" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAABAAAAAYAAQAABQAAgAAAAAAECAAAAAACAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ProfanityFilter\ProfanityHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AllowList" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="15.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MikrosClient.ProfanityFilter.Interfaces.IAllowList">
+    <Position X="6" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAgAAABQAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ProfanityFilter\Interfaces\IAllowList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MikrosClient.ProfanityFilter.Interfaces.IProfanityFilter">
+    <Position X="10.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAABAAAAAAAAAAAAQQAAAAAAAAEGAAAAABAAAI=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ProfanityFilter\Interfaces\IProfanityFilter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AllowList" />
+    </ShowAsAssociation>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

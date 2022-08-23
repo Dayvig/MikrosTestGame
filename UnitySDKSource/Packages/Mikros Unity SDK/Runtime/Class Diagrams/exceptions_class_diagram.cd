@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section: Exceptions&#xD;&#xA;">
+    <Position X="7.885" Y="0.76" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Mikros Exception&#xD;&#xA;">
+    <Position X="8.115" Y="3.062" Height="0.417" Width="1.169" />
+  </Comment>
+  <Class Name="MikrosClient.MikrosException">
+    <Position X="7.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Exceptions\MikrosException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

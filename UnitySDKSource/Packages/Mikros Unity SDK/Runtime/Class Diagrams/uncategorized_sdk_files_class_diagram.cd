@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section:&#xD;&#xA;Uncategorized Files&#xD;&#xA;">
+    <Position X="22.258" Y="1.067" Height="0.5" Width="1.637" />
+  </Comment>
+  <Comment CommentText="Ad Controller&#xD;&#xA;">
+    <Position X="5.687" Y="3.083" Height="0.438" Width="1.085" />
+  </Comment>
+  <Comment CommentText="Authentication Controller&#xD;&#xA;">
+    <Position X="16.531" Y="3.188" Height="0.521" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Mikros Settings&#xD;&#xA;">
+    <Position X="25.635" Y="8.333" Height="0.479" Width="1.367" />
+  </Comment>
+  <Comment CommentText="Client Configuration Controller&#xD;&#xA;">
+    <Position X="27.625" Y="3.062" Height="0.531" Width="1.387" />
+  </Comment>
+  <Comment CommentText="Game Service Controller&#xD;&#xA;">
+    <Position X="39.493" Y="2.779" Height="0.37" Width="1.618" />
+  </Comment>
+  <Comment CommentText="Internal Controller&#xD;&#xA;">
+    <Position X="2.264" Y="15.287" Height="0.463" Width="1.389" />
+  </Comment>
+  <Comment CommentText="Mikros Manager&#xD;&#xA;">
+    <Position X="9.096" Y="15.399" Height="0.452" Width="1.328" />
+  </Comment>
+  <Comment CommentText="Mikros Manager Initializer&#xD;&#xA;">
+    <Position X="16.974" Y="15.489" Height="0.474" Width="1.647" />
+  </Comment>
+  <Comment CommentText="Request Classes&#xD;&#xA;">
+    <Position X="25.484" Y="16.308" Height="0.474" Width="1.338" />
+  </Comment>
+  <Comment CommentText="Response Classes&#xD;&#xA;">
+    <Position X="37.937" Y="15.672" Height="0.485" Width="1.38" />
+  </Comment>
+  <Comment CommentText="Server Data&#xD;&#xA;">
+    <Position X="42.815" Y="8.625" Height="0.42" Width="1.117" />
+  </Comment>
+  <Class Name="MikrosClient.Ad.AdController">
+    <Position X="1.5" Y="4.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\AdController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="appStoreListener" />
+      <Property Name="StoreListener" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Ad.AppStoreListener">
+    <Position X="7" Y="4.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAggAAAAAIAAAAIACAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\AdController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Authentication.AuthenticationController">
+    <Position X="12.5" Y="4.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEACAAAAQQAAAgCCKAAAACACEAgAAoAAQEAACA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\AuthenticationController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MikrosUser" />
+      <Property Name="MikrosUserData" />
+      <Property Name="Session" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.MikrosUser">
+    <Position X="19.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAACAAAAAACAAAAAAgAAAAAAQAUQAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.MikrosUserData">
+    <Position X="19.25" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAGggACIABAAACBAIEAQoAAAQAAQhUQAAIAACAAg=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.SessionResponse">
+    <Position X="14.25" Y="9.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAQAAAAAAAEAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Config.ConfigurationController">
+    <Position X="24" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAQIABAIAAAgAAAWAAAAAAAAAAEBAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ClientConfigurationController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="configuration" />
+      <Property Name="MikrosSettings" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Config.Configuration">
+    <Position X="29" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACEAgAAAgACAAgAAAQAAEABAAAAAABAABE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\ClientConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="privacyLevel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.MikrosSettings">
+    <Position X="24" Y="9.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAkJIAGJAAxAEAAAAAAIAAQAAIBAAACgAg=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\MikrosSettings.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="apiKeyToUse" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.GameService.GameServiceController">
+    <Position X="35.75" Y="4.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>BBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\GameServiceController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ReputationScoreHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.GameService.ReputationScoreHandler">
+    <Position X="41.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\PlayerReputation\ReputationScoreHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.InternalController">
+    <Position X="1.5" Y="16.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAEAACAAAAAAIAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\InternalController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.MikrosManager">
+    <Position X="6.5" Y="16.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEBAAAABAAAAAAAAACAAAAiBAAQAQIAABACAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\MikrosManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="AdController" />
+      <Field Name="AnalyticsController" />
+      <Field Name="AuthenticationController" />
+      <Field Name="ConfigurationController" />
+      <Field Name="GameServiceController" />
+      <Field Name="InternalController" />
+      <Field Name="mikrosManagerInstance" />
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Analytics.AnalyticsController">
+    <Position X="11" Y="16.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAAACAAAAAAAAAAAgAAAAAGAAAAAAiAAAIBI=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Analytics\AnalyticsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.MikrosManagerInitializer">
+    <Position X="16" Y="16.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAIACAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\MikrosManagerInitializer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mikrosManagerInitializerInstance" />
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Metadata">
+    <Position X="25" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAIAAAAAAAAGAAQQAkACAACgEAKAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.SigninRequest" BaseTypeListCollapsed="true">
+    <Position X="28" Y="17.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgEQAAAAkAAAAAAEACAAAAAgAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MikrosClient.SignupRequest" BaseTypeListCollapsed="true">
+    <Position X="25" Y="21.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgEQAAAAkAAAAAAEACAAAAAgAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MikrosClient.SignoutRequest" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="21.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAgAEAAAAEAAAAAAAAAAEAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MikrosClient.GetAllAppsRequest">
+    <Position X="21.5" Y="17.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAEAAAAEAAAAIAAQAAEAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.GeneralResponse">
+    <Position X="39" Y="23" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AuthResponse">
+    <Position X="42" Y="18.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Data" />
+      <Field Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AuthResponseData">
+    <Position X="31.75" Y="23" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Session" />
+      <Field Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.StatusResponse">
+    <Position X="43.25" Y="25.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.AllAppsResponse">
+    <Position X="35" Y="17" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Data" />
+      <Field Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AllAppsResponseData">
+    <Position X="38.25" Y="17" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Featured" />
+      <Field Name="Games" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.GamesSectionData">
+    <Position X="35" Y="23" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAABAAAAAAAAAAAAAAAACAgAAABAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Casual" />
+      <Field Name="Competitive" />
+      <Field Name="Favorites" />
+      <Field Name="InDevelopment" />
+      <Field Name="JustToFun" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AppsMicroData">
+    <Position X="39.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.AppCategoryData">
+    <Position X="41.25" Y="17" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Data" />
+      <Field Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AllAppsInCategory">
+    <Position X="31.75" Y="17" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Apps" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AppDetailsData">
+    <Position X="35" Y="18.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="AppDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AppDetailsContent">
+    <Position X="31.75" Y="18.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQAAAAAAAAEhAAIAAAAAABAAAABAAAAAAAAQCAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Images" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.ImagesData">
+    <Position X="31.5" Y="25.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAEIA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.ImagesContent">
+    <Position X="42" Y="23" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.VideosData">
+    <Position X="39.25" Y="25.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Others" />
+      <Field Name="Promotional" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.VideosContent">
+    <Position X="35.75" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.ServerData">
+    <Position X="41.5" Y="9.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AEABABAACAEAAAAAAAAIAAAABAAAAAIhAgWAAAAAAAQ=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ServerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MikrosClient.IAuthenticationRequest">
+    <Position X="28" Y="21.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MikrosClient.PRIVACY_LEVEL">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.API_KEY_TYPE">
+    <Position X="28.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

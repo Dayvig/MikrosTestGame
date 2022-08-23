@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section: Native Plugin Helpers&#xD;&#xA;&#xD;&#xA;">
+    <Position X="7.073" Y="1.427" Height="0.74" Width="1.815" />
+  </Comment>
+  <Comment CommentText="Android Plugin Helper&#xD;&#xA;">
+    <Position X="4.021" Y="2.604" Height="0.573" Width="1.585" />
+  </Comment>
+  <Comment CommentText="Swift For Unity&#xD;&#xA;">
+    <Position X="9.562" Y="2.625" Height="0.521" Width="1.283" />
+  </Comment>
+  <Class Name="MikrosClient.NativeFramework.AndroidPluginHelper">
+    <Position X="4" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\NativePluginHelpers\AndroidPluginHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.NativeFramework.SwiftForUnity">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\NativePluginHelpers\SwiftForUnity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

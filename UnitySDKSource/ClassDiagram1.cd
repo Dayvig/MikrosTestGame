@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Request Classes">
+    <Position X="2.406" Y="0.5" Height="0.417" Width="1.169" />
+  </Comment>
+  <Comment CommentText="Response Classes">
+    <Position X="3.979" Y="3.906" Height="0.417" Width="1.346" />
+  </Comment>
+  <Class Name="MikrosApiClient.MikrosApiManager">
+    <Position X="12.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAiEAIAAABQCAAAACAgBACAAACABAAAAAAAQSAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\MikrosApiManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.SigninRequest" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAgAAAAAAEACAAAAAQAAAAE=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.SignupRequest" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAgAAAAAAEACAAAAAQAAAAE=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.SignoutRequest" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAEAAAAEAAAIAAAQAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.UserMetaDataRequest" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAgAEAAAAFAAAIAAAQAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.DeviceData" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CiESASAAAMAACAgwAIAMAAgAAMAQAAIIQgQAQI3KEGA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.TrackTCoinPurchaseRequest" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAASAAEAAAAABABACBAAAgAEBABAEgAIIAAAQAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.TrackTCoinSpendRequest" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkgAAAAEAAAAAAAABCAAAAgAEAABAEgAIIACAQAAEAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.GetAllAppsRequest" Collapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAEAAAAEAAAIAAAQAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.MikrosApiConfiguration" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAQAAAAAAgAAAAAAEAAAAIAAQACABA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\RequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.AuthResponse" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.AuthResponseData" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.UserResponse" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAGAgACIABAAAABAIEAQIAABQAAQgQAAAIAACAAg=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.SessionResponse" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAQAAAAAAAEAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.StatusResponse" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.SignupResponse" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.SignUpResponseData" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.TokenDataResponse" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAQAAAAAAAAAACAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.UpdateMetaDataResponse" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.TrackTCoinResponse" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.TrackTCoinResponseData" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.AllAppsResponse" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.AllAppsResponseData" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.AppDetailsData" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.AppDetailsContent" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAwAAAAAIAgEgAAIAAAAAAAMBABBAAAAAAAEQCUAg=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.ImagesData" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAEIA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.ImagesContent" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.VideosData" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.VideosContent" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.WebAnalyticsData" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgAAAACAAAACAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosApiClient.MobileAnalyticsData" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgAAAACAAAACAAgAIAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\MikrosApiManager\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section:&#xD;&#xA;Miscellaneous&#xD;&#xA;">
+    <Position X="7.917" Y="0.646" Height="0.552" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Cipher&#xD;&#xA;">
+    <Position X="3.792" Y="1.594" Height="0.385" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Rijndael Encryption&#xD;&#xA;">
+    <Position X="1.854" Y="2.354" Height="0.438" Width="1.325" />
+  </Comment>
+  <Comment CommentText="RSAEncryption&#xD;&#xA;">
+    <Position X="5.271" Y="2.427" Height="0.365" Width="1.158" />
+  </Comment>
+  <Comment CommentText="File Handle&#xD;&#xA;">
+    <Position X="12.198" Y="1.604" Height="0.344" Width="0.877" />
+  </Comment>
+  <Comment CommentText="File Handler&#xD;&#xA;">
+    <Position X="10.25" Y="2.25" Height="0.365" Width="0.898" />
+  </Comment>
+  <Comment CommentText="Secure File Handler&#xD;&#xA;">
+    <Position X="13.521" Y="2.208" Height="0.438" Width="1.377" />
+  </Comment>
+  <Comment CommentText="Constants&#xD;&#xA;">
+    <Position X="2.154" Y="9.65" Height="0.419" Width="0.86" />
+  </Comment>
+  <Comment CommentText="Crouton&#xD;&#xA;">
+    <Position X="6.421" Y="9.681" Height="0.378" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Data Converter&#xD;&#xA;">
+    <Position X="13.807" Y="9.555" Height="0.433" Width="1.218" />
+  </Comment>
+  <Comment CommentText="Enums&#xD;&#xA;">
+    <Position X="28.619" Y="9.954" Height="0.392" Width="0.7" />
+  </Comment>
+  <Comment CommentText="iTween&#xD;&#xA;&#xD;&#xA;Mikros specific namespace to prevent conflict with an already installed iTween plugin (if any) in project.&#xD;&#xA;namespace MikrosClient.Tweening">
+    <Position X="37.554" Y="9.421" Height="1.066" Width="3.268" />
+  </Comment>
+  <Comment CommentText="Mikros Logger&#xD;&#xA;">
+    <Position X="12.794" Y="23.092" Height="0.465" Width="1.177" />
+  </Comment>
+  <Comment CommentText="Screen Orientation Change Handler&#xD;&#xA;">
+    <Position X="21.498" Y="22.889" Height="0.75" Width="1.399" />
+  </Comment>
+  <Comment CommentText="Utils&#xD;&#xA;">
+    <Position X="11.553" Y="32.364" Height="0.477" Width="0.844" />
+  </Comment>
+  <Comment CommentText="Web Request&#xD;&#xA;">
+    <Position X="17.376" Y="32.321" Height="0.55" Width="1.026" />
+  </Comment>
+  <Class Name="MikrosClient.Cipher.RijndaelEncryption">
+    <Position X="1" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQIAAYAAAAgAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Cipher\RijndaelEncryption.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SetupRijndaelManaged" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.Cipher.RSAEncryption">
+    <Position X="4.25" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Cipher\RSAEncryption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Security.Cryptography.RijndaelManaged">
+    <Position X="1" Y="6.25" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MikrosClient.FileHandle.FileHandler">
+    <Position X="9" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAgQAQAgAAAAAAAAAQAAAAAAAAEAAAAAgQA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\FileHandle\FileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.FileHandle.SecureFileHandler">
+    <Position X="12.75" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\FileHandle\SecureFileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.Constants">
+    <Position X="1" Y="10.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>hhQSCChxKtMjCYAqAQgCAAB1pTD4hcQUoDB4mQFGhiQ=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.Crouton">
+    <Position X="5.25" Y="10.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAgACEKAAAAAQCAAABgAAgBAAIAIAAEQAARKAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Crouton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.DataConverter">
+    <Position X="12.5" Y="11" Width="4" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAEAAAACAAAAAAAACAAAAAAAAAAAQAAAAAQA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\DataConverter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_contractResolver" />
+      <Field Name="_serializerSettings" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Newtonsoft.Json.Serialization.DefaultContractResolver">
+    <Position X="9.75" Y="13.75" Width="4.5" />
+    <AssociationLine Name="DefaultMembersSearchFlags" Type="System.Reflection.BindingFlags" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.812" Y="20.497" />
+        <Point X="11.812" Y="21.128" />
+        <Point X="14.75" Y="21.128" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="DefaultMembersSearchFlags" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.296" />
+  </Class>
+  <Class Name="Newtonsoft.Json.JsonSerializerSettings">
+    <Position X="17.25" Y="13.75" Width="4.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MikrosClient.Tweening.iTween">
+    <Position X="36.5" Y="11" Width="5.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="MikrosClient.Tweening.iTween.EasingFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="MikrosClient.Tweening.iTween.ApplyTween" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="MikrosClient.Tweening.iTween.EaseType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MikrosClient.Tweening.iTween.LoopType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MikrosClient.Tweening.iTween.NamedValueColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="MikrosClient.Tweening.iTween.Defaults" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MikrosClient.Tweening.iTween.CRSpline" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>0QWpuFQJxrrrL29pRXNGpw+DYp3JlM6MpupDFX+571c=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\iTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.MikrosLogger">
+    <Position X="10.25" Y="24.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAACAAEAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\MikrosLogger.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="loggerObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UnityEngine.Logger">
+    <Position X="10.25" Y="27.5" Width="3.25" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="logHandler" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.UI.ScreenOrientationChangeHandler">
+    <Position X="18" Y="24.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgAgAAAAAAAAAAAAAAAAAgAIAAAAAQAgCEA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\ScreenOrientationChangeHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="thisRect" />
+      <Field Name="portriatRectRef" />
+      <Field Name="landscapeRectRef" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UnityEngine.RectTransform">
+    <Position X="23" Y="24.5" Width="4" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="UnityEngine.RectTransform.Edge" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="UnityEngine.RectTransform.Axis" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Delegate Name="UnityEngine.RectTransform.ReapplyDrivenProperties" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MikrosClient.Utils">
+    <Position X="10.25" Y="33.5" Width="3.5" />
+    <NestedTypes>
+      <Class Name="MikrosClient.Utils.AuthUtils" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gIAAgAAAAgAIAAAAAIAAIAACQAQAAgAAgAAAAAAQAAI=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.WebRequest&lt;T&gt;">
+    <Position X="16.25" Y="33.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAQAAAAEAAAgAABAaCAAACAAAAAAAAAQ=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\WebRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UnityEngine.ILogHandler">
+    <Position X="15.25" Y="28.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="MikrosClient.FileHandle.EncryptionMode">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\FileHandle\SecureFileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.UrlType">
+    <Position X="25.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAACDAAAAACAAEAAAAAABAACAAAAAAAAAIAAEAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.STATUS_TYPE">
+    <Position X="27.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.API_KEY_TYPE">
+    <Position X="25.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.LogTag">
+    <Position X="25.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.AUTH_TYPE">
+    <Position X="27.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAgCAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.EVENT">
+    <Position X="29" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ASAEAAAKCAAAAAACCICgCQBAAAAAAAAAABABAAAAEEA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.PlayerBehavior">
+    <Position X="31" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAIAAgAIgIAAAAAAAAAAiAAAgBAAAQA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.ExceptionType">
+    <Position X="29" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEQAAJIhEAAiAAABAAAAEAAAoQAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.PROFILE_SCORE_TYPE">
+    <Position X="27.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.SDK_PORTAL_EVENT_TYPE">
+    <Position X="31.25" Y="15.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AKCAABAAAAEAAAAAgAEAACAAaAAAAEAAAACAAAAAABg=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.EXCEPTION_SUB_TYPE">
+    <Position X="31" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.MIKROS_BUTTON_STYLE">
+    <Position X="27.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MikrosClient.PRIVACY_LEVEL">
+    <Position X="25.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Reflection.BindingFlags">
+    <Position X="14.75" Y="18" Width="2" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section: UI&#xD;&#xA;">
+    <Position X="15.641" Y="1.1" Height="0.521" Width="1.794" />
+  </Comment>
+  <Comment CommentText="App Store&#xD;&#xA;">
+    <Position X="16.068" Y="2.43" Height="0.438" Width="0.887" />
+  </Comment>
+  <Comment CommentText="App Base&#xD;&#xA;">
+    <Position X="1.854" Y="3.529" Height="0.465" Width="0.731" />
+  </Comment>
+  <Comment CommentText="Featured App&#xD;&#xA;">
+    <Position X="5.625" Y="3.456" Height="0.536" Width="0.95" />
+  </Comment>
+  <Comment CommentText="Game Category&#xD;&#xA;">
+    <Position X="9.543" Y="3.659" Height="0.375" Width="1.137" />
+  </Comment>
+  <Comment CommentText="Game Category Full View Panel&#xD;&#xA;">
+    <Position X="15.5" Y="3.5" Height="0.451" Width="1.919" />
+  </Comment>
+  <Comment CommentText="Mikros App Store&#xD;&#xA;">
+    <Position X="21.285" Y="3.488" Height="0.459" Width="1.363" />
+  </Comment>
+  <Comment CommentText="Normal App&#xD;&#xA;">
+    <Position X="25.919" Y="3.541" Height="0.424" Width="0.979" />
+  </Comment>
+  <Comment CommentText="User Profile Panel&#xD;&#xA;">
+    <Position X="29.576" Y="3.517" Height="0.39" Width="1.34" />
+  </Comment>
+  <Comment CommentText="Loading Panel&#xD;&#xA;">
+    <Position X="2.981" Y="10.504" Height="0.596" Width="1.346" />
+  </Comment>
+  <Comment CommentText="Mikros Button&#xD;&#xA;">
+    <Position X="8.302" Y="10.593" Height="0.529" Width="1.177" />
+  </Comment>
+  <Comment CommentText="Mikros Image&#xD;&#xA;">
+    <Position X="16.262" Y="10.628" Height="0.552" Width="1.374" />
+  </Comment>
+  <Comment CommentText="Mikros UI Canvas&#xD;&#xA;">
+    <Position X="20.86" Y="10.651" Height="0.436" Width="1.328" />
+  </Comment>
+  <Comment CommentText="Popup Panel&#xD;&#xA;">
+    <Position X="26.174" Y="10.703" Height="0.471" Width="1.177" />
+  </Comment>
+  <Class Name="MikrosClient.UI.AppBase">
+    <Position X="1" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAACAAAAGAAAYAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\AppStore\AppBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.FeaturedApp">
+    <Position X="5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAABAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\AppStore\FeaturedApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.GameCategory">
+    <Position X="8" Y="4.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAhABAAAAQAAAQAAAAAAAAABAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\AppStore\GameCategory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="appsMicroData" />
+      <Field Name="gameCategoryFullViewPanel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.AppsMicroData">
+    <Position X="9" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\ResponseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.GameCategoryFullViewPanel">
+    <Position X="14.75" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAARAAAAAAAAAAAAAAAAAIACAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\AppStore\GameCategoryFullViewPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.MikrosAppStore">
+    <Position X="19.75" Y="4.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>CCAIAIAJAQIBAAAAACAAABgAAABEAAKKAAgAAACACCA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\AppStore\MikrosAppStore.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameCategoryFullViewPanel" />
+      <Field Name="featuredAppPrefab" />
+      <Field Name="gameCategoryPrefab" />
+      <Field Name="userProfilePanel" />
+      <Field Name="normalAppPrefab" />
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.UI.UserProfilePanel">
+    <Position X="29" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAQAAAAAAAAAAAAAIAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\AppStore\UserProfilePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.NormalApp">
+    <Position X="25.75" Y="4.5" Width="1.25" />
+    <InheritanceLine Type="MikrosClient.UI.AppBase" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="4.5" />
+        <Point X="2.25" Y="4.125" />
+        <Point X="26.438" Y="4.125" />
+        <Point X="26.438" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\AppStore\NormalApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.LoadingPanel">
+    <Position X="2.25" Y="11.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAABACAgAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\LoadingPanel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.UI.MikrosButton">
+    <Position X="7" Y="11.75" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MikrosClient.UI.MikrosButton.ButtonClickedEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\MikrosButton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABSEgACBBiJQAABIAABAAEAAgABAAAoIQCAYQQAhGEA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\MikrosButton.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="buttonStyle" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MikrosClient.UI.MikrosImage">
+    <Position X="15.75" Y="11.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAAAAAAAAAAACgAAIAAAAAAAACEA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\MikrosImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.UI.MikrosUiCanvas">
+    <Position X="19.75" Y="11.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>BAUABAEAICAAJQBIAAAAAAAEAADAAAAIQAAIEAAACAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\MikrosUiCanvas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosClient.UI.PopupPanel">
+    <Position X="25.25" Y="11.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAACAAAI=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\UI\PopupPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MikrosClient.MIKROS_BUTTON_STYLE">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\Miscellaneous\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

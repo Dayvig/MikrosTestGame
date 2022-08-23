@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Cipher (Encryption)‌">
+    <Position X="1.708" Y="0.75" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="File Handler&#xD;&#xA;">
+    <Position X="7.75" Y="0.75" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Project Scripts&#xD;&#xA;">
+    <Position X="7.618" Y="5.268" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="RijndaelEncryption">
+    <Position X="0.5" Y="2" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AQIAAYAAAAgAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Cipher\RijndaelEncryption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSAEncryption">
+    <Position X="4" Y="2" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Cipher\RSAEncryption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileHandler">
+    <Position X="8" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAgQAQAgAAAAAAAAAQAAAAAAAAEAAAAAgQA=</HashCode>
+      <FileName>Assets\Scripts\FileHandle\FileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SecureFileHandler">
+    <Position X="11.25" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FileHandle\SecureFileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AnalyticsPanelHandler">
+    <Position X="0.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AnalyticsPanelHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataTrackToggle">
+    <Position X="3" Y="6.5" Width="2.75" />
+    <AssociationLine Name="DataTrackType" Type="DATA_TRACK_TYPE">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.223" Y="0.133" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAADBAAAAAQAAAAAAAAAAIAAAQAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\DataTrackToggle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dataTrackType" />
+      <Property Name="DataTrackType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Instruction">
+    <Position X="6.25" Y="6.5" Width="2" />
+    <AssociationLine Name="Instance" Type="Instruction" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="7.485" />
+        <Point X="5.95" Y="7.485" />
+        <Point X="5.95" Y="9.638" />
+        <Point X="7.333" Y="9.638" />
+        <Point X="7.333" Y="9.338" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.06" Y="0.235" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIQAAAAAgAABAAAgACAAAAAAAAAAQAAAAACAAEA=</HashCode>
+      <FileName>Assets\Scripts\Instruction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MikrosCodeExamples">
+    <Position X="8.5" Y="6.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACAAQAAAAAAAAAIABAAAAAACABAACQAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\MikrosCodeExamples.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiToggleHandle">
+    <Position X="12.25" Y="6.5" Width="2" />
+    <AssociationLine Name="dataTrackingToggles" Type="DataTrackToggle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.25" Y="7.309" />
+        <Point X="12.015" Y="7.309" />
+        <Point X="12.015" Y="6.424" />
+        <Point X="4.833" Y="6.424" />
+        <Point X="4.833" Y="6.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MultiToggleHandle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="dataTrackingToggles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ParticipantData">
+    <Position X="14.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABACAAAACAAAAAAAAAAAAAAAAAEAAACAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\ParticipantData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReputationScoringHandler">
+    <Position X="17.25" Y="6.5" Width="3.25" />
+    <AssociationLine Name="participantPrefab" Type="ParticipantData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="9.819" />
+        <Point X="15.647" Y="9.819" />
+        <Point X="15.647" Y="9.405" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.683" Y="0.462" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="participantDatas" Type="ParticipantData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="9.66" />
+        <Point X="15.73" Y="9.66" Type="JumpStart" />
+        <Point X="15.563" Y="9.66" Type="JumpEnd" />
+        <Point X="14.708" Y="9.66" />
+        <Point X="14.708" Y="9.405" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAAEACABAAAAAEAAAAAAAAIAAAAAIAAIAAAAAIAAiAA=</HashCode>
+      <FileName>Assets\Scripts\ReputationScoringHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="participantPrefab" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="participantDatas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="UserAuthenticationManager">
+    <Position X="20.75" Y="6.5" Width="3.75" />
+    <AssociationLine Name="Instance" Type="UserAuthenticationManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.063" Y="0.326" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QiBhIBCIQLAABwAAAACAhAAAYAYAAABgQAUAgAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\UserAuthenticationManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Utility">
+    <Position X="20.75" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="EncryptionMode">
+    <Position X="11.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FileHandle\SecureFileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DATA_TRACK_TYPE" Collapsed="true">
+    <Position X="2.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DataTrackToggle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

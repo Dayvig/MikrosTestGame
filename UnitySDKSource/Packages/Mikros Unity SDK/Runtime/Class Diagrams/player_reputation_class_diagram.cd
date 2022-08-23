@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Mikros Unity SDK Section: Player Reputation&#xD;&#xA;">
+    <Position X="8.156" Y="0.563" Height="0.667" Width="1.71" />
+  </Comment>
+  <Comment CommentText="Reputation Request Classes&#xD;&#xA;">
+    <Position X="4.562" Y="1.979" Height="0.5" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Reputation Score Handler&#xD;&#xA;">
+    <Position X="12.031" Y="2.042" Height="0.49" Width="1.7" />
+  </Comment>
+  <Class Name="MikrosClient.GameService.PlayerRating">
+    <Position X="5.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAgAAAAAIEAAACIAAAAIAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\PlayerReputation\ReputationRequestClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sender" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="participants" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MikrosClient.GameService.Sender">
+    <Position X="5.75" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAgAAAAAAEAAAAAAAAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\PlayerReputation\ReputationRequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.GameService.Participant">
+    <Position X="1.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgGAAAAAgAAAAAAGAAEAAAAAAAAAE=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\PlayerReputation\ReputationRequestClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MikrosClient.GameService.ReputationScoreHandler">
+    <Position X="11.25" Y="3" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\Mikros Unity SDK\Runtime\Scripts\PlayerReputation\ReputationScoreHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
